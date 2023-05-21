@@ -1,0 +1,30 @@
+{
+    "update_id": 387141585,
+    "message": {
+        "message_id": 31,
+        "from": {
+            "id": 1025146448,
+            "is_bot": false,
+            "first_name": "Arshavir",
+            "last_name": "Gharibyan",
+            "username": "Arshavir777",
+            "language_code": "en"
+        },
+        "chat": {
+            "id": 1025146448,
+            "first_name": "Arshavir",
+            "last_name": "Gharibyan",
+            "username": "Arshavir777",
+            "type": "private"
+        },
+        "date": 1684612791,
+        "text": "/start",
+        "entities": [
+            {
+                "offset": 0,
+                "length": 6,
+                "type": "bot_command"
+            }
+        ]
+    }
+}

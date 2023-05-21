@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+{{ parent() }}
+
+<div>
+    Hello: <b> {{app.user.getFirstName}} {{app.user.getLastName}}!</b>
+</div>
+
+<div>
+    <a href="/logout">Logout</a>
+    <a href="{{path('dashboard.auth_logs')}}">Auth Logs</a>
+</div>
+
+{% endblock %}

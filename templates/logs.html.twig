@@ -1,0 +1,25 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+{{ parent() }}
+
+<a href="{{path('dashboard.index')}}">Dashboard</a>
+<table class="table table-striped w-80">
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Action</th>
+        <th>CreatedAt</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for log in logs %}
+      <tr>
+        <td>{{log.getId}}</td>
+        <td>{{log.getAction}}</td>
+        <td>{{log.getCreatedAt}}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+</table>
+
+{% endblock %}
