@@ -22,7 +22,7 @@ If app running in the https:
 
 Otherwise you can use ngrok: `ngrok http 80`
 
-[http://localhost/set-webhook?url=url-from-ngrok](http://localhost/set-webhook?url=url-from-ngrok)
+[http://localhost/set-webhook?url=url-from-ngrok/webhook](http://localhost/set-webhook?url=url-from-ngrok/webhook)
 
 After go to this url you will see the json response from telegram bot.
 
